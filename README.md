@@ -1,104 +1,78 @@
-# Project Overview: Enhancing Reading Development Through Time Management
+# Hullabaloo Party Supplies (HPS) Online Ordering System Project
 
-This repository showcases a project aimed at managing and enhancing a child’s reading development by tracking time spent on daily activities. It demonstrates my ability to lead and manage a project from concept to delivery, incorporating both technical and strategic planning aspects.
+## Project Overview
 
-## 1. Project Overview
-The project is designed to help parents manage and improve their child’s reading development by efficiently tracking time spent on various activities throughout the day. It provides actionable insights into available time for evening reading sessions, facilitating better scheduling for parents.
+As a Systems Analyst, I've been entrusted with the initiation of the project planning process for the introduction of a new online customer ordering system for Hullabaloo Party Supplies (HPS). In this stage, our focus is creating practicality and feasibility assessments. This proposal, presented as the Project Charter, outlines key components and insights into what to anticipate and the intended outcomes of the project.
 
-## 2. Purpose, Goals and Objectives
-- **Purpose:** To help parents optimize their child's reading development by managing daily activities and ensuring time is allocated for reading.
-- **Goals:** 
-  1. Enhance reading development through better time management.
-  2. Provide actionable insights for parents to optimize scheduling.
-  3. Demonstrate project management and technical skills in a practical application.
-  
-## 3. Key Assumptions
-- Parents are looking for ways to better manage their child’s schedule and ensure consistent reading time.
-- The target audience includes parents with children aged 5-12 who aim to improve their child’s reading development.
-- The application will be used on desktop platforms.
+### Problem Statement:
+Hullabaloo Party Supplies (HPS) has traditionally sold to third-party vendors exclusively. However, with the shift toward serving the general public, the existing system will not suffice. A new system must guide customers through the purchase process until completion, integrating e-commerce and shipping services.
 
-## 4. Stakeholders and Responsibilities
-- **Primary Stakeholder:** Parents and caregivers.
-- **Project Manager (Myself):** Defined project scope, coordinated between stakeholders, ensured timely delivery.
-- **Developers:** Responsible for programming the application and implementing features.
-- **Quality Assurance:** Ensured the product met functional and user experience requirements.
+## Purpose, Goals, and Objectives
 
-## 5. High-Level WBS for Requirements Gathering
-- **Task 1:** Identify key activities to track (e.g., school, chores, playtime).
-- **Task 2:** Determine how to log and categorize activities.
-- **Task 3:** Define features for tracking reading time.
-- **Task 4:** Set up feedback mechanisms for stakeholders (parents).
+The purpose of this project is to introduce an ordering system that can successfully serve HPS's new clientele. This system should provide usability, seamless customer interactions, and high-quality customer service. The ultimate objective is to ensure a smooth and successful transition into this new business frontier.
 
-## 6. Requirement List/Analysis
-- **Functional Requirements:** 
-  - Track daily activities with time logs.
-  - Identify available time for evening reading.
-  - Generate reports on time management and reading progress.
-  
-- **Non-Functional Requirements:**
-  - User-friendly interface.
-  - Compatibility with major desktop operating systems.
-  - High reliability and availability.
+## Key Assumptions
 
-## 7. Economic Feasibility Analysis
-- **Costs:** 
-  - Development tools and environments (e.g., IntelliJ IDEA).
-  - Time investment for project management and coordination.
-  
-- **Benefits:** 
-  - Enhanced reading habits for children.
-  - Improved scheduling and time management for parents.
-  - Potential to expand the project into a mobile app for broader reach.
+The following assumptions have been made regarding the software that would be most compatible with the company’s needs:
 
-## 8. Developing Methodology
-The project was developed using the Agile methodology. This allowed for continuous feedback from parents to refine features and ensure the product met their needs. The development process was broken into iterative sprints, with regular check-ins for testing and feedback.
+1. The system will be externally developed as Custom Software.
+2. The system will be web-based, ensuring broad accessibility.
+3. The system will support integration of applicable data.
+4. Robust security measures will protect customer data and prevent unauthorized access.
+5. The system will be compatible across various devices and operating systems.
+6. Order tracking features will be integrated for customer convenience.
+7. Secure payment services, such as credit card and PayPal, will be integrated.
+8. The system will scale as customer base and order volume grow.
 
-## 9. Implementation Plan
-- **Phase 1:** Requirement gathering and analysis.
-- **Phase 2:** System design and prototyping.
-- **Phase 3:** Development and implementation of core features.
-- **Phase 4:** Testing and quality assurance.
-- **Phase 5:** Deployment and delivery of final product.
+## Stakeholders and Responsibilities
 
-## Key Features
-- **Activity Tracking:** Logs time spent on various daily activities.
-- **Reading Insights:** Identifies available time for evening reading sessions.
-- **User-Friendly Design:** Simplifies data entry and visualization for parents.
+Stakeholders include all individuals or teams with a key interest in the development of this system. Here are the primary stakeholders:
 
-## Project Manager Role
-As the Project Manager, I:
-- Defined project goals aligned with end-user needs.
-- Coordinated between stakeholders to refine requirements.
-- Managed the project timeline, ensuring timely completion.
-- Oversaw development and quality assurance phases.
-- Delivered a user-centric solution with measurable outcomes.
+1. **Owners**: Invested capital or equity within the business.
+2. **Investors**: Provide capital to the business.
+3. **Regulators**: Ensure compliance with laws and regulations.
+4. **CEO**: Responsible for the overall management of the company.
+5. **VP**: Manage specific areas of the company.
+6. **Project Manager (myself)**: Plan, execute, and close projects.
+7. **Training Subcontractor**: Provide training services to employees.
+8. **Marketing**: Promote the company’s products.
+9. **Manager Supervisor**: Oversee employees and ensure they meet goals.
+10. **IT Management**: Manage the company’s IT infrastructure.
+11. **Internal IT Staff**: Provide technical support to employees.
+12. **Purchasing Unit Manager**: Supports the Purchasing unit.
+13. **Human Resources**: Manage employee relations and recruit new staff.
+14. **Suppliers**: Companies producing the products.
+15. **Customers**: The population for which the system is serving.
 
-## Tools and Technologies
-- **Programming Language:** Java
-- **Development Environment:** IntelliJ IDEA
-- **Collaboration Tools:** Trello for task management, GitHub for version control
+## High-Level WBS for Requirements Gathering
 
-## Outcomes
-- **Enhanced Reading Time:** Parents reported improved evening reading routines.
-- **Efficient Scheduling:** Simplified activity management for families.
-- **Technical Achievement:** Successfully implemented a robust, scalable solution.
+The Work Breakdown Structure (WBS) has been developed to manage the project's requirements and tasks. This will ensure a seamless progression between milestones and manage tasks that may need to be done concurrently or sequentially.
 
-## Skills Demonstrated
-- **Project Management:** Scoped, planned, and executed the project lifecycle.
-- **Technical Leadership:** Directed a team of developers and ensured alignment with goals.
-- **Stakeholder Communication:** Engaged with parents to gather feedback and refine features.
-- **Problem-Solving:** Addressed challenges in real-time to maintain project momentum.
+### Requirements List/Analysis:
+- Enable online customer orders, including item selection and quantity.
+- Gather customer information and allow account creation.
+- Automatically calculate total order costs, including taxes.
+- Apply promotional codes and discounts at checkout.
+- Offer secure payment methods like credit cards and PayPal.
+- Implement real-time inventory management.
+- Provide a variety of shipping options.
+- Support customer feedback and product reviews.
 
-## Future Improvements
-- Expand functionality to include goal-setting for reading milestones.
-- Integrate data visualization for more insightful reporting.
-- Develop a mobile-friendly version to increase accessibility.
+## Economic Feasibility Analysis
 
----
+The project's financial feasibility has been assessed using the following metrics:
 
-## Contact
-If you have any questions or would like to collaborate on similar projects, feel free to reach out:
+1. **Net Present Value (NPV)**: $390,245.
+2. **Return on Investment (ROI)**: 90.91%.
+3. **Breakeven Analysis**: Breakeven is expected within 3.06 years.
 
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn:** [Kelsey Thompson](https://www.linkedin.com/in/kelsey-thompson-959521288/)
-- **GitHub:** [kelseythompson](https://github.com/kelseythompson)
+## Developing Methodology
+
+We recommend using an **Agile methodology** for the development of the online ordering system. Agile is a flexible, iterative approach that focuses on collaboration, customer feedback, and adapting to changes. This will help ensure that the system evolves in line with market demands and customer expectations.
+
+## Implementation Plan
+
+The implementation of the system will proceed through several phases, including:
+
+1. **Documentation**: Develop comprehensive system and user documentation.
+2. **Employee Training**: Provide training via support channels, manuals, and help
